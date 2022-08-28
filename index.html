@@ -26,17 +26,28 @@
     <div class="container">
         <section class="red-box">
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <label for="destinationName" class="form-label">Destination name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter the name of the destination">
+            </div>
+            <div class="mb-3">
+                <label for="location" class="form-label">Location</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Where is it located?">
+            </div>
+            <div class="mb-3">
+                <label for="photo" class="form-label">Photo</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="description" class="form-label">Description</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Describe your destionation"></textarea>
             </div>
+            <button type="button" class="btn btn-primary">Add to list</button>
         </section>
 
         <section class="blue-box">
-            <section class="purple-box"></section>
+            <section class="purple-box">
+                <h5 id="destination-details">Enter destination details</h5>
+            </section>
             <section class="orange-box"></section>
         </section>
     </div>
