@@ -19,19 +19,31 @@
     padding: 20px 200px 200px;
 }
 
+.red-box div {
+    width: 300px;
+}
+
+.red-box button {
+    width: 300px;
+}
+
 .blue-box {
     border: 5px solid blue;
+    width: 710px;
     margin: 10px 0 0 20px;
 }
 
 .purple-box {
     border: 5px solid purple;
     margin: 10px;
-    padding: 20px 200px 200px;
+}
+
+#destination-details {
+    padding: 5px 0 10px 20px;
 }
 
 .orange-box {
     border: 5px solid orange;
     margin: 10px;
-    padding: 20px 200px 200px;
+    padding: 20px 200px 700px;
 }
