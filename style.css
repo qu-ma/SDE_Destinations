@@ -1,3 +1,37 @@
-body {
-    background-color: burlywood;
+
+
+.green-box {
+    border: 5px solid greenyellow;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.red-box {
+    border: 5px solid red;
+    margin: 10px 20px 0 0;
+    padding: 20px 200px 200px;
+}
+
+.blue-box {
+    border: 5px solid blue;
+    margin: 10px 0 0 20px;
+}
+
+.purple-box {
+    border: 5px solid purple;
+    margin: 10px;
+    padding: 20px 200px 200px;
+}
+
+.orange-box {
+    border: 5px solid orange;
+    margin: 10px;
+    padding: 20px 200px 200px;
 }
